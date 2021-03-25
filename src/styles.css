@@ -5,4 +5,23 @@ html,body{
     height: 100%;
     min-height: 100vh;
     min-width: 180px;
+    background-color: #24c278;
+}
+#sidebar a:hover{
+    background-color: #d4f7e7;
+}
+.card-body{
+    background-color: #24c278;
+}
+footer a{
+    text-decoration: none;
+}
+@media (max-width: 400px){
+
+    #sidebar {
+       display: none;
+    }
+    .row.p-3{
+        background-color:#24c278 ;
+    }
 }
